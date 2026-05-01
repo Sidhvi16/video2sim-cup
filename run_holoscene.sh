@@ -20,8 +20,8 @@ nvidia-smi --query-gpu=name,memory.total,memory.free --format=csv,noheader
 export SCENE_NAME=plant
 export DATA_ROOT=/home/crajashekhar/cup1/data/input/custom
 export OUTPUT_ROOT=/home/crajashekhar/cup1/data/output/custom
-export IMG_WIDTH=1280
-export IMG_HEIGHT=720
+export IMG_WIDTH=1440
+export IMG_HEIGHT=2560
 export TORCH_CUDA_ARCH_LIST="8.9"
 export TCNN_CUDA_ARCHITECTURES="89"
 export PYTORCH_SKIP_CUDA_CHECK=1
